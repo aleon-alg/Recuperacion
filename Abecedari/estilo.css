@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  }
+
+  #head{
+  background-color: blue;
+  height: 100px;
+}
+
+.circulos{
+  background-color: cyan;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+p{
+text-align: center;
+font-size: 60px;
+}
+
+#pie{
+  background-color: lightgreen;
+  height: 80px;
+  clear: both;
+}
+
+@media screen and (max-width:767px){
+#head{
+  background-color: cyan;}
+}
+
+@media screen and (max-width:767px){
+#pie{
+  background-color: cyan;}
+}
+
+@media screen and (max-width:767px){
+.circulos{
+  background-color: cyan;
+  width: 200px;
+  height: 200px
+  }
+
+}

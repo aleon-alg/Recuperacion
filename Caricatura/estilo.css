@@ -1,0 +1,123 @@
+#contenedor{
+  width:400px;
+  height:600px;
+  margin:150px auto;
+
+}
+body{
+  background-color:grey;
+}
+
+.cara{
+  width:300px;
+  height:350px;
+  border-radius:51% 49% 46% 54% / 17% 17% 83% 83% ;
+  background-color:#FDDBA6;
+}
+
+.ojos{
+  width:60px;
+  height:60px;
+  background-color:white;
+  border-radius:50%;
+  position:relative;
+  display:inline-block;
+  margin-left:60px;
+  margin-top:130px;
+}
+
+.ojocolor{
+  width:30px;
+  height:30px;
+  background-color:#684613;
+  position:absolute;
+  border-radius:50%;
+  margin:25%
+}
+
+.ojopupila{
+  width:10px;
+  height:10px;
+  background-color:#000000;
+  position:absolute;
+  border-radius:100%;
+  margin:40%;
+}
+
+.cejas{
+  width:40px;
+  height:40px;
+  background-color:#000000;
+  position:absolute;
+  top:-50px;
+  border:30px solid #000000;
+  border-bottom:15px;
+  border-radius:50% 50% 20% 20%;
+  clip-path: polygon(44% 35%, 62% 38%, 100% 50%, 62% 44%, 43% 45%, 0 62%);
+  z-index:10%;
+  right:-20px;
+}
+
+.ceja.primera{
+  width:40px;
+  height:40px;
+  background-color:#000000;
+  position:absolute;
+  top:-50px;
+  border:30px solid #000000;
+  border-bottom:15px;
+  border-radius:50% 50% 20% 20%;
+  clip-path: polygon(44% 35%, 62% 38%, 100% 50%, 62% 44%, 43% 45%, 0 62%);
+  z-index:10%;
+  right:-20px;
+}
+
+#flequillo{
+  width:300px;
+  height:200px;
+  background-color:#291D02;
+  position:absolute;
+  top:50px;
+clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 50%, 79% 49%, 50% 49%, 18% 49%, 0% 70%, 0% 35%, 20% 10%);
+  z-index:10;
+  top:80px;
+}
+
+.nariz{
+  width:100px;
+  height:100px;
+  background-color:#E7D181;
+  clip-path: polygon(50% 27%, 66% 85%, 26% 85%, 38% 58%);
+  margin-left:40px;
+}
+
+.boca{
+  width:50px;
+  height:50px;
+  background-color:#FF8CE7;
+  clip-path: polygon(49% 67%, 76% 57%, 100% 57%, 100% 75%, 81% 85%, 49% 89%, 17% 89%, 0 76%, 0 58%, 21% 58%);
+  margin-left:60px;
+  margin-top:-125px;
+}
+
+.orejas{
+  width:80px;
+  height:80px;
+  background-color:#FFF8B7;
+  clip-path: polygon(30% 7%, 49% 38%, 49% 61%, 49% 100%, 25% 100%, 15% 50%);
+  position:relative;
+  z-index:60;
+  margin-left:-80px;
+  top:-100px;
+}
+
+.oreja.primera{
+  width:80px;
+  height:80px;
+  background-color:#FFF8B7;
+  clip-path: polygon(30% 7%, 49% 38%, 49% 61%, 49% 100%, 25% 100%, 15% 50%);
+  position:relative;
+  z-index:60;
+  margin-left:210px;
+  top:-200px;
+}

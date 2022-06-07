@@ -1,0 +1,133 @@
+ body{
+  background-color:cyan;
+}
+
+#cesped{
+  width: auto;
+  height:100px;
+  background-color:lightgreen;
+  position: relative;
+  top: 900px;
+}
+
+@keyframes floreta {
+0% {transform: rotate(0deg);}
+100% {transform: rotate(360deg); }
+}
+
+#flor{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background-color:yellow;
+  margin: 0 auto;
+  top:250px;
+  left:50px;
+  position: relative;
+  animation: floreta 4s infinite linear;
+}
+
+.petalo{
+  width:100px;
+  height:100px;
+  background-color:white;
+  border-radius:0% 100% 0% 100% / 0% 100% 0% 100%;
+  position: relative;
+}
+
+#p1{
+  top:-100px;
+  left:-100px;
+}
+
+#p2{
+  top:-50px;
+  left:50px;
+}
+
+#p3{
+  top:-150px;
+  left:-100px;
+  transform: rotate(90deg);
+}
+
+#p4{
+  top:-400px;
+  left:50px;
+  transform: rotate(90deg);
+}
+
+.palo{
+  height:50px;
+  width:500px;
+  background-color:green;
+  position:relative;
+  top: 500px;
+  left:475px;
+  transform: rotate(90deg);
+}
+
+@keyframes sol {
+0% {transform: rotate(0deg);}
+100% {transform: rotate(360deg);}
+}
+
+#sol{
+  height:100px;
+  width:100px;
+  background: linear-gradient(90deg, rgba(207,205,43,1) 2%, rgba(193,157,40,1) 52%, rgba(73,70,11,1) 100%);
+  position:relative;
+  clip-path: circle(50% at 50% 50%);
+  bottom:70px;
+  left:500px;
+  animation: sol 4s infinite linear;
+}
+
+
+
+#casa{
+  height:700px;
+  width:500px;
+  background-color:brown;
+  clip-path: polygon(0 0, 77% 0, 75% 100%, 0% 100%);
+  z-index:40;
+  position: relative;
+}
+
+#casatecho{
+  height:300px;
+  width:400px;
+  clip-path: circle(51.9% at 50% 100%);
+  background-color:red;
+  position: absolute;
+  z-index:40;
+  margin-top:-1000px;
+}
+
+#nubes{
+  width:300px;
+  height:100px;
+  background-color:grey;
+  z-index:50;
+  border-radius:50%;
+  margin-top:-1000px;
+  margin-left:80px;
+  position: absolute;
+  animation: nubes 4s;
+}
+
+@keyframe nubes {
+  0% {transform: translateX(0);}
+  100% {transform: translateX(200px);}
+}
+
+#montaña{
+height:500px;
+width:500px;
+clip-path: circle(51.9% at 50% 100%);
+background-color:green;
+z-index:10;
+top:410px;
+position: absolute;
+margin-left:800px;
+}
